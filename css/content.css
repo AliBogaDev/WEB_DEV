@@ -1,0 +1,66 @@
+#content{
+    float: left;
+    width: calc(100% -300px); /*esto es para calcular el tamaño que va a ocuapra ya que el otro ocupa 300px*/ 
+    margin-top:40px ;
+    padding: 0px 20px; /*el contenedor: agrega el primero arriba/abajo el segundo es izquierda/derech*/
+    box-sizing: border-box;
+}
+
+
+#content h1{
+    margin: 0;
+    font-size: 30px;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px var(--gray-color-light) ;
+    margin-bottom: 20px;
+}
+
+#content article{
+background-color: white;
+padding: 40px; /*el contenido del section es decir el article*/
+margin-top: 30px;
+border: solid 1px var(--gray-color);
+box-shadow: 2px 2px 5px var(--gray-color-light) ;
+
+}
+
+#content article h2{
+    margin: 0;
+    color:var(--secondary-color);
+}
+
+#content article a{
+    font-size: 20px;
+    float: right;
+}
+
+.pagination{
+    float: right;
+}
+
+
+
+.pagination li{
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.pagination li a{
+    padding: 5px 10px;
+    background-color: white;
+    border: solid 1px var(--gray-color);
+}
+
+.pagination li:hover a{
+    color: white;
+    background-color:var(--primary-color-light);
+    border: solid 1px var(--gray-color)
+}
+@media(max-width: 700px ){
+    #content{
+        width: 100%;
+    }
+}
+

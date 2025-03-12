@@ -1,0 +1,23 @@
+footer {
+    float: left;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color:white;
+    font-size: 14px;
+    margin-top: 40px;
+   /* opacity: 0.5 ; esto opaca se ve el fondo*/
+}
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: var(--primary-color-light);
+}
+
+footer div {
+    margin-bottom: 10px;
+}

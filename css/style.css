@@ -1,0 +1,12 @@
+@import url("/css/common.css");
+@import url("/css/fonts.css");
+@import url("/css/colors-theme_1.css");
+@import url("/css/header.css");
+@import url("/css/main-menu.css");
+@import url("/css/aside.css");
+@import url("/css/content.css");
+@import url("/css/footer.css");
+
+/*puedo crear css coon las fuentes,  los colores, etc y luego importarlos*/
+
+

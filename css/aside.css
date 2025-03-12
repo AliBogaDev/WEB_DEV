@@ -1,0 +1,92 @@
+aside{
+    float: left;
+    width: 300px;
+    background-color: var(--white-color);
+    margin-top: 40px;
+    padding: 30px;
+    box-sizing: border-box; /*para ajustar el tamaño sin más y que respete el tamaño de la caja*/
+    border: solid 1px var(--gray-color);
+    box-shadow: 2px 2px 5px var(--gray-color);
+}
+
+aside h3{ /*los cabeceros*/
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 5px;
+    font-family: "Sigmar-Regular"Arial, Helvetica, sans-serif;
+    border-top: solid 1px var(--gray-color);
+    border-bottom: solid 1px var(--gray-color);
+}
+
+.widget{
+    margin-bottom: 60px;
+}
+
+.widget form input[type="email"], .widget form input[type="password"]{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-transform: uppercase;
+    
+
+}
+
+.widget form input[type="submit"]{
+    width: 100%;
+    text-transform: uppercase;
+    color:white;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.widget form input[type="submit"]:hover{
+    cursor:pointer; /*para que el puntero se ponga en forma de puntero*/
+    background-color: var(--primary-color-light);
+}
+
+.widget ul{
+    list-style-type: circle;
+    padding-left: 20px;
+    
+}
+
+.widget ul li{
+    margin: 19px 0 ;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration:none;
+    transition: all 0.3s;
+}
+
+a:hover{ /*cambia el color al pasar el ratón*/
+    color: var(--primary-color-light)
+} 
+ 
+
+.widget blockquote{
+    margin:  0;
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+@media(max-width: 700px){
+    aside{
+        width: 100%;/*esto es para hacerlo adaptable al movil*/
+    }
+    
+
+}

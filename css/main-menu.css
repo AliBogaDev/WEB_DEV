@@ -1,0 +1,74 @@
+#main-menu{
+    float: left;
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow:2px 2px 5px var( --gray-color) ; /*sombra de difuminado*/
+    text-transform: uppercase; /*es para poner todo en mayusculoa*/
+}
+
+ #main-menu > ul >li {
+    float: left;
+    margin: 10px 0;
+   
+}
+
+#main-menu >ul >li > a{
+    color:white;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-right: solid 1px var(--ternary-color); /*las margenes de la derecha*/
+}
+
+#main-menu >ul >li > a:hover{
+background-color: var(--primary-color-light); /*para cuando paso el roton encima de los links del navegador*/
+}
+
+#main-menu >ul >li > ul {
+    display: none; /*ocultamos la lista para que no sea tan grueso el cabecero*/
+    position: absolute;
+    margin-top: 10px;
+}
+
+#main-menu >ul >li > ul > li >  a{
+    display: block;
+    color:white;
+    background-color: var(--secondary-color);/*fondo del desplegable*/
+    padding: 15px 20px;
+    font-size: 18px;
+    border-top: solid 1px var(--ternary-color-light); /*el borde de mi desplegabel*/
+}
+
+
+#main-menu >ul >li > ul > li >  a:hover{ /*El hover de mi desplegable*/
+    background-color: var( --primary-color-light);
+}
+
+
+#main-menu >ul>li:hover >ul{/*el recorrido de mi lista desplegable, para que se abra el desplagable cada vez que clico en noticia*/
+ display: block;
+ box-shadow: 2px 2px 5px var(--gray-color); /*la combra alrrededor*/
+}
+
+@media(max-width: 700px){ /*para ajustar la pantalla  al  movil*/
+   #main-menu >ul >li{
+    width: 100%; /*le damos el ancho completo de la pantalla para que se ponga uno debajo de otro*/
+    margin:0;
+    border-bottom: solid 1px var(--secondary-color-light);
+
+   } 
+
+   #main-menu >ul >li > ul {
+    width: 100%;/*el submenu  lo pone centrado*/
+   
+   }
+
+   #main-menu >ul >li > a {/*para ponerlo en menu de movil y centrado*/
+    text-align: center;
+    display: block;
+   }
+
+   #main-menu >ul >li >ul >li{
+    text-align: center;
+   }
+
+}

@@ -1,0 +1,27 @@
+header{
+    float:left;
+    width:100% ;
+    font-family: "Sigmar-Regular",Arial, Helvetica, sans-serif ;
+    text-align: center;
+    margin: 20 px 0; /*esto es para no poner todo el margin-top y bottom*/
+
+}
+
+header img { /*El tamaño de mi imagen  de portada*/
+    width: 150px;
+    border-radius: 50%; /*redondear la imagen*/
+    box-shadow: 10px 5px 5px var(--primary-color);
+    
+}
+
+header h1{
+    color:var(--primary-color);
+    font-size: 50px;
+    margin:0;
+    text-shadow:2px 2px 5px var(--gray-color); /*difuminado*/
+    
+}
+
+.text-secondary{
+    color:var(--secondary-color); /*El color de mi Projects*/
+}

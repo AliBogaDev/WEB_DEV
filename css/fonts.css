@@ -1,0 +1,4 @@
+@font-face { /*aqui puedo importar fuentes */
+    font-family:"Sigmar-Regular" ;
+    src: url("/Fonts/Oswald-Bold.ttf");
+} /*Para modificar y añadir fuentes!*/

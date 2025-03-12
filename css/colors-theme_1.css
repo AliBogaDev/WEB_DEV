@@ -1,0 +1,12 @@
+:root{
+    /*variables de css para crear el color*/
+    --primary-color: #0e4a64 ; 
+    --primary-color-light : #1ed1e1;
+    --secondary-color: #d74c1d ;
+    --secondary-color-light: #d2b72a ;
+    --gray-color: #8db4c2 ;
+    --gray-color-light: #bcd5d9;
+    --ternary-color: #e2eb94 ;
+    --ternary-color-light: #eaf3f3 ;
+    
+}

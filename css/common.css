@@ -1,0 +1,12 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Sigmar-Regular",Arial, Helvetica, sans-serif ;
+    background: radial-gradient(circle, var(--ternary-color),var(--ternary-color-light) 30%, LightCyan 50%, var(--ternary-color));
+    background-size: 8px 8px;
+
+}
+#container{
+    max-width: 1200px;
+    margin:  0 auto;
+}
